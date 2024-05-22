@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: "Homemade Apple", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Img/fondoliso.jpg');
+    background-size: contain;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Img/fondo1.jpg");
+    background-size: cover ;
+    background-position: center;
+}
+
+
+#text-container {
+    background-color: rgba(49, 47, 47, 0.7);
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 3vw;
+}
+
+.text-container p {
+    font-size: 1.2vw;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para la sección de proyectos */
+.proyect_sections {
+    width: 100%;
+}
+
+#Power-Bi .project {
+    background-color: #F2C811;
+}
+
+#Tableau .project {
+    background-color: #09053196;
+}
+
+#SQL_Server .project {
+    background-color: #690404c2;
+}
+#Front .project {
+    background-color: #d0df4b;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    /* Ensures space is evenly distributed between flex items */
+    align-items: center;
+    /* Centers items vertically */
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.logo img {
+    margin: 0;
+    height: 80px;
+    border-radius: 0.5em;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    /* Ensures space is evenly distributed between flex items */
+    align-items: stretch;
+    /* Centers items vertically */
+    
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 0.5em;
+}
+
+.project-info {
+    margin-right: 10px;
+    width: 60%;
+}
+
+.project-image {
+    display: flex;
+    align-items: center; /* Centers image vertically */
+    justify-content: center; /* Centers image horizontally */
+    width: 40%;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    font-family: "Segoe UI";
+    font-size: 1.5rem;
+    margin: 0;
+    color: #000000;
+    /* Color primario */
+}
+
+.project p {
+    font-family: "Segoe UI";
+    font-size: 1rem;
+    color: #363636;
+    /* Color secundario */
+}
