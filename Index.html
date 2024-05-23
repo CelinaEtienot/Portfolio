@@ -75,7 +75,8 @@
                         criterios relevantes. El objetivo fue centralizar toda la información en un solo tablero
                         interactivo, facilitando su consulta y mejorando la capacidad de análisis y el acceso rápido.
                     </p>
-                    <a href="Celina Etienot_Curso PowerBi_ Edición 1_Tablero Cambio Climatico.pbix" download><strong>Descargar</strong></a>
+                    <a href="Celina Etienot_Curso PowerBi_ Edición 1_Tablero Cambio Climatico.pbix"
+                        download><strong>Descargar</strong></a>
                 </div>
                 <div class="project-image">
                     <img src="Img/incendios1.png" alt="Tablero Incendios forestales">
@@ -211,8 +212,8 @@
 
     <section class="proyect_sections" data-aos="zoom-in-right" data-aos-duration="1000">
         <div id="SobreMi">
-              <h2>Sobre mi</h2>
-                        <div class="project">
+            <h2>Sobre mi</h2>
+            <div class="project">
                 <div class="project-info">
                     <p>Soy una profesional apasionada por formar parte de proyectos que generen resultados concretos y
                         aplicables, enfocados en la resolución de problemas específicos y la optimización de recursos
@@ -221,9 +222,10 @@
                         datos, programación y desarrollo de negocios. Siempre busco aportar valor mediante propuestas
                         innovadoras y la implementación
                         de soluciones eficientes y efectivas.
-                        Para conocer mi trayectoria profesional ver el siguiente enlace:</p> 
-                        <a href="https://www.linkedin.com/in/celina-etienot/" target="_blank">  <strong>Ver perfil Linkedin</strong></a>
-                        <a href="https://github.com/CelinaEtienot" target="_blank">  <strong>Ver perfil Github</strong></a>
+                        Para conocer mi trayectoria profesional ver el siguiente enlace:</p>
+                    <a href="https://www.linkedin.com/in/celina-etienot/" target="_blank"> <strong>Ver perfil
+                            Linkedin</strong></a>
+                    <a href="https://github.com/CelinaEtienot" target="_blank"> <strong>Ver perfil Github</strong></a>
                 </div>
                 <div class="project-image">
                     <img src="Img/sobremi.png" alt="Yo">
@@ -231,6 +233,17 @@
             </div>
         </div>
     </section>
+
+    <!-- Icono de contacto -->
+    <div class="contact-icon" onclick="toggleContactInfo()">
+     <img src="Img/comunicar.png" alt="contacto">
+    </div>
+
+    <!-- Contact Info Container -->
+    <div id="contact-info" class="contact-info">
+        <p>Email: <a href="mailto:celinaetienot@gmail.com">celinaetienot@gmail.com</a></p>
+        <p>Celular: +54911-58837271</p>
+    </div>
 
     <footer>
         <p>Derechos de autor &copy; 2024 - Adriana Celina Etienot</p>
@@ -242,6 +255,16 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function toggleContactInfo() {
+            var contactInfo = document.getElementById("contact-info");
+            if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
+                contactInfo.style.display = "block";
+            } else {
+                contactInfo.style.display = "none";
+            }
+        }
     </script>
 </body>
 
